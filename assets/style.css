@@ -1,0 +1,79 @@
+body{
+  font-family: 'Comic Neue', cursive;
+}
+
+main {
+  min-height: calc(100vh - 100px);
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #495057;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.rounded-image {
+  border-radius: 50%;
+}
+.rounded-image {
+  border-radius: 50%;
+  position: initial;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 25px;
+  color: #000;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons i {
+  font-size: 30px;
+}
+
+.social-icons .fab.fa-instagram {
+  color: #0275d8;
+}
+
+.social-icons .far.fa-envelope {
+  color: #0275d8;
+}
+
+.social-icons .fab.fa-whatsapp {
+  color: #0275d8;
+}
+
+.container{
+  min-height: calc(100vh - 200px);
+  max-height: calc(100vh - 50px);
+  min-width: 100px;
+  max-width: 1000px;
+  height: 100px;
+    overflow-y: auto;
+}
